@@ -9,10 +9,6 @@ import javax.swing.text.JTextComponent;
 
 
 public class EditAreaContextMenu extends JPopupMenu {
-
-  /**
-   * 
-   */
   private static final long serialVersionUID = 8891485297491032390L;
 
   private JMenuItem mCopy;

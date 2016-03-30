@@ -103,7 +103,7 @@ public class StringHandlerPanel extends JPanel implements ActionListener, Docume
 			    } else if (text == mHexArea) {
 			    	select(mStringArea, (int) Math.ceil(dot / factor), (int) Math.ceil(mark / factor));
 			    }
-			    System.out.println(" [dot: " + dot + ",mark: " + mark + "]");
+			    //System.out.println(" [dot: " + dot + ",mark: " + mark + "]");
 			     
 			}
 		});
@@ -233,7 +233,7 @@ public class StringHandlerPanel extends JPanel implements ActionListener, Docume
 				continue;
 			
 			try {
-				System.out.println("DBG: str = " + str);
+				//System.out.println("DBG: str = " + str);
 				int ascii = Integer.valueOf(str, 16);
 				String s1 = String.format("%c", ascii);
 				//char character = (char) ascii;

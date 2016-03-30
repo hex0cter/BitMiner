@@ -133,7 +133,7 @@ public class NetworkHandlerPanel extends JPanel implements ActionListener, Docum
 			if (hex.isEmpty())
 				continue;
 
-			System.out.println("convert2Hex: " + hex);
+			//System.out.println("convert2Hex: " + hex);
 			int dec = Integer.valueOf(hex);
 			output +=  String.format("%02x", dec) + " ";
 		}
