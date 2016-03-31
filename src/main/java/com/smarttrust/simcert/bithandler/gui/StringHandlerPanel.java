@@ -30,7 +30,7 @@ public class StringHandlerPanel extends JPanel implements ActionListener, Docume
 	 */
 	private static final long serialVersionUID = 2317746598339270755L;
 	
-	private boolean mInsertSpace = true;
+	private boolean mInsertSpace = false;
 	
 	private JTextArea mStringArea;
 	private JTextArea mHexArea;

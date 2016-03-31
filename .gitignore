@@ -6,6 +6,7 @@ bin
 .idea/
 build/
 *.iml
+.gradle/
 
 # Package Files #
 *.jar
