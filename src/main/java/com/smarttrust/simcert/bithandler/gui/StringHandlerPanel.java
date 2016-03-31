@@ -169,7 +169,7 @@ public class StringHandlerPanel extends JPanel implements ActionListener, Docume
 		
 		String text = mHexArea.getText();
 
-		text = text.replaceAll("..", "$0 ");
+		text = text.replaceAll("src/main", "$0 ");
 		
 		mHexArea.getDocument().removeDocumentListener(this);
 		mHexArea.setText(text);
@@ -223,7 +223,7 @@ public class StringHandlerPanel extends JPanel implements ActionListener, Docume
 		String hex = mHexArea.getText();
 		
 		hex = hex.replaceAll(" ", "");
-		hex = hex.replaceAll("..", "$0 ");
+		hex = hex.replaceAll("src/main", "$0 ");
 		
 		String[] array = hex.split(" ");
 		

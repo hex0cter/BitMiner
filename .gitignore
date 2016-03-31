@@ -4,6 +4,7 @@
 .mtj.tmp/
 bin
 .idea/
+build/
 *.iml
 
 # Package Files #

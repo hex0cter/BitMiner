@@ -23,6 +23,6 @@ public class UIUtils {
   public static final ImageIcon LOGO = getIcon("logo.png");
 
   private static ImageIcon getIcon(String file) {
-    return new ImageIcon(UIUtils.class.getResource("icons/" + file));
+    return new ImageIcon(UIUtils.class.getClassLoader().getResource("icons/" + file));
   }
 }

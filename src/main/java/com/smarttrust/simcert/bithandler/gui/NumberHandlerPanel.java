@@ -178,7 +178,7 @@ public class NumberHandlerPanel extends JPanel implements ActionListener {
 
 		String text = mTextArea.getText();
 
-		text = text.replaceAll("..", "$0 ");
+		text = text.replaceAll("src/main", "$0 ");
 		mTextArea.setText(text);
 	}
 

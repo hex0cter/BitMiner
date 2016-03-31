@@ -1,0 +1,7 @@
+apply plugin: 'application'
+
+mainClassName = "com.smarttrust.simcert.bithandler.Main"
+
+repositories {
+    jcenter()
+}
